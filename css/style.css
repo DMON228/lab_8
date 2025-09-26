@@ -1,34 +1,37 @@
 .main_title,
 .logo,
 .text,
-.btn
-{
-    margin-left: 30px;
-}
-.main_title
-{
-    width: 450px;
-    font-size: 58px;
-    letter-spacing: 3px;
-    line-height: 64px;
-    color: #060c31;
-    font-weight: 500;
-    font-family: "Crete Round";
+body{
+    font-family: "Crete Round", serif;
 }
 
-.logo
-{
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo{
     font-size: 34px;
+    font-weight: 400;
     letter-spacing: 2px;
-    line-height: 77px;
-    color: #060c31;
-    font-weight: 500;
-    font-family: "Crete Round";
+}
+
+.main_title{
+    letter-spacing: 3px;
+    line-height: 64px;
+    margin-top: 88px;
+    font-size: 58px;
 }
 
 .text
 {
-    width: 420px;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 28px;
@@ -45,6 +48,7 @@
 .cta-buttons {
     display: flex;
     margin-top: 30px;
+    gap: 15px;
 }
 
 .btn {
