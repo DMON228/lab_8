@@ -63,18 +63,7 @@
     color: white;
 }
 
-.btn-primary:hover
-{
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px #576ce6;
-}
-
 .btn-secondary {
     background-color: white;
     border: 1px solid #ffb0b1;
-}
-
-.btn-secondary:hover {
-    border-color: #9e0205;
-    box-shadow: 0 4px 10px #ffb0b1;
 }
